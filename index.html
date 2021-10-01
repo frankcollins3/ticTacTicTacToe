@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TicTac Tic-Tac-Toe</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1 class="title">Tic-Tac   <span>Tic Tac Toe</span></h1>
+        <div class="container">
+            <div class="game-buttons">
+                <div class="status">Beat the Fruit!</div>
+                <br>
+                <div class="reset">Reset</div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="box" id="box-1"></div>
+            <div class="box" id="box-2"></div>
+            <div class="box" id="box-3"></div>
+            <div class="box" id="box-4"></div>
+            <div class="box" id="box-5"></div>
+            <div class="box" id="box-6"></div>
+            <div class="box" id="box-7"></div>
+            <div class="box" id="box-8"></div>
+            <div class="box" id="box-9"></div>
+        </div>
+
+        <audio src="media/tictac1.wav" id="ticTacSound1" type="audio/wav" hidden="true"></audio>
+        <audio src="media/tictac2.wav" id="ticTacSound2" type="audio/wav" hidden="true"></audio>
+        <audio src="media/humanwins.wav" id="humanWins" type="audio/wav" hidden="true"></audio>
+        <audio src="media/cpuwins.wav" id="cpuWins" type="audio/wav" hidden="true"></audio>
+        
+        <script src="js/app.js" async defer></script>
+    </body>
+</html>
